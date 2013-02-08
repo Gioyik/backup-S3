@@ -1,0 +1,369 @@
+===================================
+Since Mon Feb  4 09:38:20 UTC 2013
+===================================
+
+   * frameworks/base
+f8a9566 Merge "Keyguard: Fix for home wake/unlock sometimes waking and unlocking during the same keypress." into cm-10.1
+ca9e9533 SystemUI: Remove the dark pixel artifacts from the back arrow drawable
+8dee1ae Merge "frameworks: base: systemui: modify hdpi & xhdpi drawables for battery_min" into cm-10.1
+3448639 Merge "Update Russian Translation-SystemUI-CM10.1" into cm-10.1
+b694509 Added missing hungarian translations
+
+   * packages/apps/Camera
+d85702c Merge "Danish: Camera ISO modes" into cm-10.1
+
+   * packages/apps/Mms
+db0f9c1 Added hungarian translation for privacy mode
+
+   * packages/apps/Settings
+0f75ca6 Settings: Fix build warnings
+e2dda30 Added hungarian translation
+
+   * packages/apps/Trebuchet
+c43d6ee Merge "Trebuchet: Updated italian translation" into cm-10.1
+
+   * packages/wallpapers/Galaxy4
+0352ac5 Merge "Czech: translated" into cm-10.1
+
+===================================
+Since Thu Jan 31 08:52:54 UTC 2013
+===================================
+
+   * build
+dc95f1e Merge commit 'android-4.2.1_r1.2' into cm-10.1
+
+   * frameworks/av
+4b47852 Camera: Enable QC Camera feature set.
+
+   * frameworks/base
+0c80e38 Merge "Navbar : Fix left over glow" into cm-10.1
+2e561b2 Keyguard: Fix for home wake/unlock sometimes waking and unlocking during the same keypress.
+9fe28b9 Merge "Czech: fixed translation, added new strings" into cm-10.1
+93f4145 Merge "PT-BR: Update translations" into cm-10.1
+c238c18 Merge "Android framework: Hebrew translation update" into cm-10.1
+64169e1 Merge "frameworks_base: Simplified Chinese Translations" into cm-10.1
+ee44f3b Navbar : Fix left over glow
+af7b4a4 Lockscreen Targets : Make multi-user compatible
+32e8892e Update Russian Translation-SystemUI-CM10.1
+1bd6ff6 Fix coding style.
+c7f62ee @hide new setting and move it to appropriate place.
+ba9734b Merge "framework: Update German translation" into cm-10.1
+0ae78e1 framework: Update German translation
+7ef69d4 Notification sound-to-vibration conversion toggle
+81cf219 PT-BR: Update translations
+29c4724 Android framework: Hebrew translation update
+679d1a9 Merge "SistemUI: updated romanian translation" into cm-10.1
+00ca1d7 Merge "Update Russian Translation-SystemUI-CM10.1" into cm-10.1
+62730e1 Merge "Prevent audio players starting on startup." into cm-10.1
+
+   * frameworks/native
+be1b753 libgui: Use fences for all QCOM targets
+
+   * frameworks/opt/telephony
+bc36886 LGEQualcommUiccRIL: New subclass to deal with the latest qcom RIL
+
+   * hardware/qcom/display
+7a8a513 hwc: Don't allow downscale with alpha on MDP <= 4.1
+fcbef05 display: Use fences for all targets
+cbdefbc display: Allow build for all QCOM platforms
+
+   * hardware/qcom/gps
+09ce8ac Split API 50000 support
+9822b47 Updates to build with JB
+442dd14 libloc_api-rpc: retry calls when busy
+fedc059 libloc_api: create deferred action thread after client is opened
+3380e60 libloc_api: provide a default timeout/accuracy for 1240 fix criteria
+aaa6899 libloc_api: do xtra when cb is registered, and retry on fail
+caba398 libloc_api: use privacy lock on 1240 too
+836146a libloc_api: fix possible use of uninitialized variable
+0cbbff7 Convert bearing/heading from 10 bit value to degrees on locapi 20000
+905e6e4 locapi: Add support for locapi version 20000/20002
+cf14750 locapi: Add support for locapi version 50000
+1eda0de gps: Add support for sync ioctls
+89bcdd5 Destroy client handles after they're closed
+aee6a0e loc_api: Remove support for AMSS 6225
+c0b599a gps: Bugfixes and improvements from CodeAurora
+b2b1dd6 loc_api: Add support for AMSS 6225
+
+   * packages/apps/Bluetooth
+5d54e37 Czech: merged from CM10, fixed typo
+ae002e2 Bluetooth: Hebrew translation updates
+cdc9e1f Merge "Bluetooth: Simplified Chinese Translations" into cm-10.1
+7388d94 Merge "Gábor Sári added hungarian translations for strings_map" into cm-10.1
+ee582d2 Merge "PT-BR: Update Translations" into cm-10.1
+0aab1b6 Bluetooth: Update values
+
+   * packages/apps/Browser
+a18dbce Czech: some fixes, merge from CM10
+
+   * packages/apps/CMFileManager
+9d1e948 Merge "CMFileManager: Simplified Chinese Translations" into cm-10.1
+153c534 Merge "CMFM: Hebrew translation updates" into cm-10.1
+1dabae4 CMFileManager: Simplified Chinese Translations
+6d7b207 CMFM: Set translatable="false"
+38942e0 Merge "Update Russian Translation-CMFileManager-CM10.1" into cm-10.1
+3d4d609 Update Russian Translation-CMFileManager-CM10.1
+138d39f CMFileManager : add French translation
+20ddba2 CMFM: Hebrew translation updates
+
+   * packages/apps/CMUpdater
+14d0c83 Merge "Lithuanian: translations for CMUpdater" into cm-10.1
+95bdc40 Merge "Czech: fixed translation" into cm-10.1
+
+   * packages/apps/CMWallpapers
+57dbfc3 Add Serbian translation
+
+   * packages/apps/Camera
+a5bb368 Camera: Do not start autofocus when snapshot is in progress.
+432cf11 Camera: Don't try to set focus/metering areas when none exist
+227c063 Danish: Camera ISO modes
+e42b921 Merge "Camera: Hebrew translation updates" into cm-10.1
+49b321d Merge "camera: updated german translation" into cm-10.1
+8146c11 camera: updated german translation
+78ac279 CameraSettings: Fix crash when HAL has too many exposure steps
+be7d7be Camera: Hebrew translation updates
+
+   * packages/apps/Contacts
+81b9664 Merge "Fix display of missed calls when filtering for call type and sorting by count." into cm-10.1
+10d8fd3 Fix display of missed calls when filtering for call type and sorting by count.
+7dece38 PT-BR: Update translations
+d67924a Japanese: initial Japanese translation for CM10.1
+7aec0bb Merge "Contacts: Hebrew translation updates" into cm-10.1
+272ccf2 Fix threads running after entering call log, possibly affecting battery life.
+e5eb971 Merge "es_ES: Added spanish translations for call statistics" into cm-10.1
+e573ac5 Merge "Added hungarian translation for Call statistics" into cm-10.1
+e840412 Fix display condition for minutes.
+8f8a66c es_ES: Added spanish translations for call statistics
+d6655f5 Added hungarian translation for Call statistics
+1f6cc5b Fix crash of date selector.
+6a52654 Contacts: Hebrew translation updates
+f4425bc Merge "Add Call statistics to Contacts (Phone)" into cm-10.1
+9accb58 Merge "Update Russian Translation-Contacts-CM10.1" into cm-10.1
+6a3a391 Add Call statistics to Contacts (Phone)
+
+   * packages/apps/DeskClock
+565a396 Merge "DeskClock: Simplified Chinese Translations" into cm-10.1
+d5a8b94 Merge "Japanese : update Japanese translation." into cm-10.1
+d659fb9 DeskClock: Simplified Chinese Translations
+08ed99b es_ES: Updated spanish translations
+ab3bfd1 Merge "DeskClock : Add french translation" into cm-10.1
+1b66243 Fix NPE for AlarmClock in silent mode
+1e945b5 Merge "DeskClock: Update German translation" into cm-10.1
+a29ff43 Merge "DeskClock: Danish Translation" into cm-10.1
+
+   * packages/apps/LockClock
+82005b3 Merge "cLock: Unicode formatting" into cm-10.1
+f33f2ca cLock: Unicode formatting
+628bf1a Fix display of all-day events if there's more than one all-day event.
+770e025 Goodbye Chronus, it was nice knowing you (1 of 2)
+
+   * packages/apps/Mms
+a729a75 Mms : Default privacy mode to off
+1747e8f Mms: Add privacy mode notifications
+accd096 Merge "Mms: added missing Czech translation" into cm-10.1
+
+   * packages/apps/Settings
+ea7a334 Settings: New Danish strings and arrays
+d3b3f7a Japanese: update Japanese translation.
+a9171b5 Merge "Settings: Simplified Chinese Translations" into cm-10.1
+530ae08 Settings: Make it clearer how SMS Limiting works and add 500 messages option
+b87e20c Update Russian Translation-Settings-CM10.1
+36ac1fb PT-BR: Update translations
+4d79446 Merge "Setting : add french missing  translation" into cm-10.1
+82dc3a0 Merge "Settings: Hebrew translation updates" into cm-10.1
+2be71be Merge "Settings: Hungarian translations for Custom lock screen background" into cm-10.1
+5e7b1ab Merge "TouchInterceptor: Fixed image cache problems Fixes the problem shown in this video: http://youtu.be/piqHych4nJY" into cm-10.1
+796ed8b Settings: Simplified Chinese Translations
+c037ec2 Setting : add french missing  translation
+d476ab5 es_ES: Updated spanish translations
+a00cd8d Settings: Hungarian translations for Custom lock screen background
+6b1dbff Settings: Hide Development settings when it is turned off
+0e72d0e Goodbye Chronus, it was nice knowing you (2 of 2)
+c02fc9e Notification sound-to-vibration conversion toggle
+7c9652a TouchInterceptor: Fixed image cache problems Fixes the problem shown in this video: http://youtu.be/piqHych4nJY
+1f1d510 Settings: Fix build warning
+46cfe43 Settings: Hebrew translation updates
+e905d70 Settings: Update  German translations
+148eb22 Merge "Settings: Update time zones" into cm-10.1
+
+   * packages/apps/Superuser
+0d669a0 SuperUser : minor correction
+
+   * packages/apps/Torch
+6ebe01d Added Serbian translation
+
+   * packages/inputmethods/LatinIME
+e0b878f Merge "Czech: fixed translation, added missing" into cm-10.1
+
+   * packages/screensavers/Basic
+ada8b30 Czech: changed name to something better understandable
+
+   * packages/screensavers/PhotoTable
+8e9254b Czech: changed name to reflect nature of application
+
+   * packages/wallpapers/Galaxy4
+da5c87c Czech: translated
+d7a2408 Galaxy4: Simplified Chinese + French Translations
+
+   * packages/wallpapers/MagicSmoke
+9ca6687 Czech: added translation
+
+   * packages/wallpapers/PhaseBeam
+53f5ba9 Czech: added translation
+
+   * system/core
+c925999 Merge commit 'android-4.2.1_r1.2' into cm-10.1
+
+   * system/extras
+604363b Merge commit 'android-4.2.1_r1.2' into cm-10.1
+
+   * vendor/cm
+96ee150 Merge "Overlay: New hungarian dictionary" into cm-10.1
+
+===================================
+Since Wed Jan 30 09:07:45 UTC 2013
+===================================
+
+   * frameworks/base
+70dd514 SystemUI: highlight quick settings and notification clear buttons
+6b5877c Merge "SystemUI QuickSettings: Allow more off-status localizations" into cm-10.1
+2f52b27 framework: Custom lock screen background [1/2]
+c0dc033 frameworks_base: Simplified Chinese Translations
+90560e7 SystemUI QuickSettings: Allow more off-status localizations
+750229c framework: Make string translateable
+f9f2220 Merge "Keyguard: remove duplicated code" into cm-10.1
+
+   * kernel/samsung/smdk4412
+0ae4324 t0ltecdma: remove ifdef from bt lpm
+
+   * packages/apps/Apollo
+a494412 Add serbian translation
+
+   * packages/apps/Contacts
+3a1e496 Fix NullPointerException on locale change.
+
+   * packages/apps/DeskClock
+3d7b856 Japanese : update Japanese translation.
+27a2f05 DeskClock : Add french translation
+
+   * packages/apps/LockClock
+869234e Fix NullPointerException.
+
+   * packages/apps/Settings
+56f3c5f Setting: Remove unneeded strings
+916778d Merge "Disable Automatic brightness checkbox if automatic brightness is not available" into cm-10.1
+19a9cae Fix the spacing between displayed rotation angles
+53f1c35 Settings: Custom lock screen background [2/2]
+9255129 Disable Automatic brightness checkbox if automatic brightness is not available
+
+   * packages/apps/Trebuchet
+7eb8551 Japanese : update Japanese translation.
+7f66c84 Trebuchet: Updated italian translation
+
+   * vendor/cm
+918a7ea Enable wireless Xbox 360 controller support
+
+===================================
+Since Tue Jan 29 09:40:30 UTC 2013
+===================================
+
+   * development
+7973971 FM Radio: Add support for FM Radio in Android
+
+   * device/samsung/smdk4412-common
+de26689 Add support for R950 USCC Note 2
+
+   * frameworks/av
+69d8d46 FM Radio: Add support for FM Radio in Android
+
+   * frameworks/native
+f13a380 Merge "FM Radio: Add support for FM Radio in Android" into cm-10.1
+
+   * hardware/libhardware
+09c0110 Merge "FM Radio: Add support for FM Radio in Android" into cm-10.1
+
+   * hardware/libhardware_legacy
+4ab7bb4 STE_FMRDIO:enable STE_FM radio
+
+   * hardware/qcom/audio-caf
+918d40e Revert "alsa_sound:Resample proxy ouput for other than 48KHz samplerate"
+
+   * packages/apps/Bluetooth
+8e80a44 Bluetooth: Simplified Chinese Translations
+
+   * packages/apps/CMUpdater
+00bf04b Lithuanian: translations for CMUpdater
+
+   * packages/apps/Calculator
+8091800 Calculator: added missing Czech translations
+
+   * packages/apps/DeskClock
+ce0eb0d DeskClock: Update German translation
+
+   * packages/apps/Phone
+2135509 Phone: Updated italian translation
+
+   * packages/apps/Settings
+83f4075 Settings: Update time zones
+
+   * system/core
+4900c5c Merge "FM Radio: Add support for FM Radio in Android" into cm-10.1
+
+   * vendor/samsung
+644a4d3 d2: Update blobs
+0caa2f5 Merge pull request #185 from sbrissen/cm-10.1
+c2e91c2 Merge branch 'cm-10.1' of https://github.com/sbrissen/proprietary_vendor_samsung into cm-10.1
+27be7bb add libsecnativefeature - used for cam and smdexe
+2210450 add libsecnativefeature - used for cam
+f4c5dad Merge pull request #184 from sbrissen/cm-10.1
+e87c72d add support for R950
+
+   * vendor/sony
+d91ea4b tapioca: cleanup
+fb333d5 mesona: cleanup
+20c3f40 blue: add fm libs
+
+===================================
+Since Mon Jan 28 09:46:08 UTC 2013
+===================================
+
+   * external/bluetooth/bluedroid
+69f86c8 Bluetooth: Change Sampling Frequency to 48 kHz
+
+   * frameworks/base
+f17e84f Keyguard: remove duplicated code
+320186b Merge "Keyguard: Reduce font size of clock in status keyguard (sw720dp)" into cm-10.1
+ec0d7a7 Update Russian Translation-SystemUI-CM10.1
+37dc71c Merge "Fix code formatting issues." into cm-10.1
+b971905 Prevent audio players starting on startup.
+e77b6ef Fix code formatting issues.
+94ca7dd Merge "SystemUI: New Danish strings" into cm-10.1
+3ca26f6 Merge "PT-BR: Update translations" into cm-10.1
+a0bfbc7 Notification : Fix app info long-press
+
+   * packages/apps/Bluetooth
+a7c5b31 Gábor Sári added hungarian translations for strings_map
+
+   * packages/apps/Browser
+573349f Deleting pref_video_preload_choices translations
+
+   * packages/apps/Calculator
+2768f28 Deleting operatorDescs translations
+
+   * packages/apps/Camera
+9a7b641 Camera: New danish strings
+f4cf1a6 Merge "PT-BR: Update Translation" into cm-10.1
+
+   * packages/apps/Contacts
+6322027 Update Russian Translation-Contacts-CM10.1
+
+   * packages/apps/DeskClock
+3c027ec Merge "PT-BR: Update translations" into cm-10.1
+
+   * packages/apps/Mms
+a5e92b4 Update Russian Translation-Mms-CM10.1
+
+   * packages/apps/Settings
+f079705 Merge "PT-BR: Update translations" into cm-10.1
+f3f6571 Merge "Lithuanian: translations for settings" into cm-10.1
+
